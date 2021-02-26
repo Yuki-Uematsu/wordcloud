@@ -6,11 +6,11 @@ import numpy as np
 
 
 
-df = pd.read_csv("/Users/uematsuyuuki/Desktop/processed_acl/books/nagative.csv")
+df = pd.read_csv("---.csv")
 #print("first_data_sides_is {}".format(df.info()))
-de = pd.read_csv("/Users/uematsuyuuki/Desktop/processed_acl/books/positive.csv")
+de = pd.read_csv("---.csv")
 #print("second_data_sides_is {}".format(de.info()))
-da = pd.read_csv("/Users/uematsuyuuki/Desktop/processed_acl/dvd/unlabeled.csv")
+da = pd.read_csv("---.csv")
 #print("third_data_sides_is {}".format(da.info()))
 
 show = {}
