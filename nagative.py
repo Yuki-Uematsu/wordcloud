@@ -1,9 +1,8 @@
 import pandas as pd
 import re
-
 from PIL import Image
 import numpy as np
-
+from wordcloud import WordCloud
 
 
 df = pd.read_csv("---.csv")
@@ -49,8 +48,6 @@ show.drop(type(show)=="int")
 show.append(da)
 show.drop(type(show)=="int")
 """
-
-from wordcloud import WordCloud
 
 mask = np.array(Image.open('mask.png'))
 wordcloud = WordCloud(background_color='white',mask=mask,font_path="./ipagp.ttf",max_words=3000000000000000000000000000000,contour_color='black')
