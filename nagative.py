@@ -26,6 +26,7 @@ try :
     final = re.sub("\d","",P)
 except re.error:
     pass
+
 """
 print("first_data",df)
 print("second_data",de)
